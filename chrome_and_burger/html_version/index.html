@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Chrome & Burger</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script
+			defer
+			src="./script.js"
+		></script>
+	</head>
+	<body class="font-sans text-base">
+		<header
+			class="flex justify-between items-center py-2 border-b max-w-screen-xl mx-auto relative"
+		>
+			<a
+				href="#"
+				class="flex items-center font-semibold text-black"
+			>
+				<div class="text-4xl h-16 w-16 flex items-center justify-center">
+					🍔
+				</div>
+				<div class="ml-2">Chrome & Burger</div>
+			</a>
+			<nav class="flex items-center">
+				<ul
+					id="menu"
+					class="hidden list-none gap-1 flex-col md:flex md:flex-row"
+				>
+					<li>
+						<a
+							href="#"
+							class="block px-5 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
+							>Home</a
+						>
+					</li>
+					<li>
+						<a
+							href="#menu-burgers"
+							class="block px-5 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
+							>Menu</a
+						>
+					</li>
+					<li>
+						<a
+							href="#menu-burgers"
+							class="block px-10 py-2 bg-blue-700 text-white rounded-lg hover:bg-black active:bg-red-500"
+							>Order Now</a
+						>
+					</li>
+				</ul>
+				<button
+					id="mobile-toggle"
+					class="md:hidden flex p-2"
+				>
+					<img
+						src="assets/images/mobileToggle .svg"
+						alt="Mobile Toggle"
+					/>
+				</button>
+			</nav>
+		</header>
+		<main>
+			<section class="flex flex-col md:flex-row my-8 max-w-screen-xl mx-auto">
+				<div
+					class="flex-1 bg-blue-100 rounded-3xl p-8 flex flex-col justify-center"
+				>
+					<h1 class="text-6xl mb-2">Chrome & Burger</h1>
+					<p class="mb-8">
+						Feeling famished after conquering those waves? Look no further than
+						Chrome & Burger, your one-stop shop for gourmet grub that's as
+						classic as a beach sunset and as shiny as a chrome fender!
+					</p>
+					<div class="mt-5 mb-3">
+						<a
+							href="#"
+							target="_blank"
+							class="inline-block px-8 py-2 bg-blue-700 text-white rounded-lg hover:bg-black active:bg-red-500"
+							>Full Menu</a
+						>
+					</div>
+				</div>
+				<div class="flex-1 bg-yellow-500 rounded-3xl p-8 flex justify-center">
+					<img
+						src="assets/images/BurgerTruck.jpeg"
+						alt="Burger Truck"
+						class="object-cover w-full h-full"
+					/>
+				</div>
+			</section>
+			<section
+				id="menu-burgers"
+				class="my-8 max-w-screen-xl mx-auto"
+			>
+				<h2 class="text-6xl text-center py-8">100% Organic Burgers</h2>
+				<div class="flex flex-col md:flex-row gap-8">
+					<article class="flex-1 bg-yellow-500 p-8 rounded-3xl">
+						<figure class="pt-8 overflow-hidden">
+							<img
+								src="assets/images/TheAllAmerican.jpeg"
+								alt="The All-American"
+								class="transition-transform duration-300 ease-in-out transform hover:scale-125 w-full"
+							/>
+						</figure>
+						<h3 class="text-3xl font-semibold mt-5 mb-2">The All-American</h3>
+						<p class="mb-2">
+							A timeless masterpiece featuring a juicy all-beef patty, melted
+							cheddar cheese, crisp lettuce, vine-ripened tomato, red onion,
+							tangy pickles, and our signature "Wagon Sauce" on a toasted
+							brioche bun.
+						</p>
+					</article>
+					<article class="flex-1 bg-yellow-500 p-8 rounded-3xl">
+						<figure class="pt-8 overflow-hidden">
+							<img
+								src="assets/images/BaconCheeseburger.jpeg"
+								alt="Bacon Cheeseburger"
+								class="transition-transform duration-300 ease-in-out transform hover:scale-125 w-full"
+							/>
+						</figure>
+						<h3 class="text-3xl font-semibold mt-5 mb-2">Bacon Cheeseburger</h3>
+						<p class="mb-2">
+							This beauty boasts a juicy all-beef patty, crisp bacon, melted
+							cheddar cheese, crisp lettuce, vine-ripened tomato, red onion, and
+							tangy pickles, all on a toasted brioche bun.
+						</p>
+					</article>
+					<article class="flex-1 bg-yellow-500 p-8 rounded-3xl">
+						<figure class="pt-8 overflow-hidden">
+							<img
+								src="assets/images/TheAlohaBurger.jpeg"
+								alt="The Aloha Burger"
+								class="transition-transform duration-300 ease-in-out transform hover:scale-125 w-full"
+							/>
+						</figure>
+						<h3 class="text-3xl font-semibold mt-5 mb-2">The Aloha Burger</h3>
+						<p class="mb-2">
+							This tropical treat features a juicy all-beef patty topped with
+							grilled pineapple, melted Swiss cheese, crisp lettuce, tangy
+							teriyaki sauce, and a creamy sriracha mayo on a toasted Hawaiian
+							sweet roll.
+						</p>
+					</article>
+				</div>
+			</section>
+		</main>
+		<footer class="text-center py-4">
+			&copy; Chrome & Burger 2024. All rights reserved.
+		</footer>
+	</body>
+</html>
