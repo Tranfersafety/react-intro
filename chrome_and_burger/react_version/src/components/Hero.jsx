@@ -22,7 +22,7 @@ const Hero = () => {
 			</div>
 			<div className="flex-1 bg-yellow-500 rounded-3xl p-8 flex justify-center">
 				<img
-					src="../../public/assets/images/BurgerTruck.jpeg"
+					src="/assets/images/BurgerTruck.jpeg"
 					alt="Burger Truck"
 					className="object-cover w-full h-full"
 				/>

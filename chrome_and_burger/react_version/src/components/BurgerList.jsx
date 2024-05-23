@@ -3,21 +3,21 @@ import Card from "./Card";
 
 const burgers = [
 	{
-		image: "../../public/assets/images/TheAllAmerican.jpeg",
+		image: "/assets/images/TheAllAmerican.jpeg",
 		altText: "The All-American",
 		title: "The All-American",
 		description:
 			"A timeless masterpiece featuring a juicy all-beef patty, melted cheddar cheese, crisp lettuce, vine-ripened tomato, red onion, tangy pickles, and our signature 'Wagon Sauce' on a toasted brioche bun.",
 	},
 	{
-		image: "../../public/assets/images/BaconCheeseburger.jpeg",
+		image: "/assets/images/BaconCheeseburger.jpeg",
 		altText: "Bacon Cheeseburger",
 		title: "Bacon Cheeseburger",
 		description:
 			"This beauty boasts a juicy all-beef patty, crisp bacon, melted cheddar cheese, crisp lettuce, vine-ripened tomato, red onion, and tangy pickles, all on a toasted brioche bun.",
 	},
 	{
-		image: "../../public/assets/images/TheAlohaBurger.jpeg",
+		image: "/assets/images/TheAlohaBurger.jpeg",
 		altText: "The Aloha Burger",
 		title: "The Aloha Burger",
 		description:

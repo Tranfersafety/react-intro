@@ -60,7 +60,7 @@ const Header = () => {
 					onClick={toggleMobileMenu}
 				>
 					<img
-						src="../../public/assets/images/mobileToggle.svg"
+						src="/assets/images/mobileToggle.svg"
 						alt="Mobile Toggle"
 					/>
 				</button>
