@@ -1,11 +1,16 @@
-function App() {
+import React from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
+const App = () => {
 	return (
-		<>
-			<h1 className="text-blue-400 font-bold text-6xl text-center my-0 mx-auto">
-				Hello React World!
-			</h1>
-		</>
+		<div className="font-sans text-base w-full h-full">
+			<Header />
+			<Main />
+			<Footer />
+		</div>
 	);
-}
+};
 
 export default App;
